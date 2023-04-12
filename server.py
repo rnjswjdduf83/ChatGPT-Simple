@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 
 load_dotenv()  # load env vars from .env file
 #openai.api_key = os.getenv("OPENAI_API_KEY") 키바꾸기!!!!!!!
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("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")
 
 app = Flask(__name__)
 
